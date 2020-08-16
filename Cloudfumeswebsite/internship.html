@@ -1,0 +1,294 @@
+<html>
+
+<head>
+  <title>Apply Now</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa {
+      padding: 15px;
+      margin-top: -10px;
+      font-size: 20px;
+      width: 50px;
+
+      text-align: center;
+      text-decoration: solid;
+      border-radius: 50%;
+    }
+
+    .fa-linkedin {
+      background: #191b1b;
+      color: white;
+    }
+
+    .hello {
+      border: 5px solid #352929;
+      background-color: azure;
+      margin: 20%;
+      margin-bottom: auto;
+      margin-top: 120;
+      padding: 10px;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid " id="flip" hidden>
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+  <header id="C4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand " href="#">Cloudfumes</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link">Internship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="shadow-lg p-3 mb-5 bg-white rounded hello">
+    <form>
+      <label>1) Do you know any programming language?</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+        <label class="form-check-label" for="exampleRadios1">
+          Yes
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          No
+        </label>
+      </div>
+    </form>
+    <form>
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">2) Which language do you want to work with?</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <option selected> </option>
+        <option value="1">Go</option>
+        <option value="2">Rust</option>
+        <option value="3">Java</option>
+        <option value="4">Javascript</option>
+        <option value="5">PHP</option>
+        <option value="6">Python</option>
+      </select>
+    </form>
+    <form>
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref1">3) Which Front-end framework you want to learn?</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref1">
+        <option selected> </option>
+        <option value="1">VueJs</option>
+        <option value="2">ReactJs</option>
+        <option value="3">Svelte</option>
+        <option value="4">Angular</option>
+
+      </select>
+    </form>
+    <form>
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref2">4) Which Mobile-Platform you want to learn?</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref2">
+        <option selected> </option>
+        <option value="1">Flutter</option>
+        <option value="2">React Native</option>
+        <option value="3">Native Script</option>
+        <option value="4">None</option>
+      </select>
+    </form>
+    <form>
+      <label>5) From which location you want to work?</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1">
+        <label class="form-check-label" for="exampleRadios3">
+          Hyderabad
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+        <label class="form-check-label" for="exampleRadios4">
+          Pune
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option3">
+        <label class="form-check-label" for="exampleRadios5">
+          Mumbai
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option4">
+        <label class="form-check-label" for="exampleRadios6">
+          Gondia
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option5">
+        <label class="form-check-label" for="exampleRadios7">
+          Remote
+        </label>
+      </div>
+    </form>
+    <form>
+      <label>6) Are you fluent in English?</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option1">
+        <label class="form-check-label" for="exampleRadios8">
+          Yes
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios9" value="option2">
+        <label class="form-check-label" for="exampleRadios9">
+          No
+        </label>
+      </div>
+    </form>
+    <center>
+      <h2>Personal Details</h2>
+    </center>
+
+    <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Full Name:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Email:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput3">Contact No:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput3">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput4">About you:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Short info about you...">
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Upload Your Resume:</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Please confirm that you agree to our
+
+            <!-- Button trigger modal -->
+            <a href="" data-toggle="modal" data-target="#staticBackdrop">
+              Terms & Conditions
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Terms & Conditions</h5>
+                    <p class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </p>
+                  </div>
+                  <div class="modal-body">
+                    1.Your learning time will be of Morning-11:00am to Evening:7:00pm<br>
+                    2.We will not pay you any amount in Internship period.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </a>
+          </label>
+        </div>
+      </div>
+    </form>
+    <form>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+  <footer>
+    <div class="row mt-4 m-0 p-0 bg-dark">
+      <div class="col-sm-12 col-md-10  col-lg-6 bg-dark pt-sm-4" style="padding-left: 100px;">
+        <h6 class="text-white h4 mt-3">Categories</h6>
+        <div style="font-size:x-small;">
+          <a href="https://www.serverless.com/" style="color: rgb(114, 121, 128);">Serverless</a><br>
+          <a href="https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/"
+            style="color: rgb(114, 121, 128);">Cloud Computing</a><br>
+          <a href="https://vuejs.org/" style="color: rgb(114, 121, 128);">Vue js</a><br>
+        </div>
+
+      </div>
+
+      <div class="col-sm-12 col-md-10 col-lg-6 bg-dark pt-sm-4" style="padding-left: 100px;">
+        <h6 class="text-white h5 mt-3">QUICK LINKS</h6>
+        <div style="font-size:x-small;">
+          <a href="#C4" style="color: rgb(114, 121, 128);">Back to top</a><br>
+          <a href="About.html" style="color: rgb(114, 121, 128);">About</a><br>
+          <a href="#C4" style="color: rgb(114, 121, 128);">Internship</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="row m-0 p-0 bg-dark">
+      <div class="col-sm-12 col-md-12 col-lg-12 bg-dark" style="padding-left: 100px;">
+        <hr color="white">
+      </div>
+    </div>
+    <div class="row m-0 p-0 bg-dark">
+      <div class="col-sm-11 col-md-10 col-lg-10 bg-dark" style="padding-left: 100px;">
+        <p style="color: rgb(114, 121, 128);">Copyright © 2019 All Rights Reserved by Cloudfumes.</p>
+      </div>
+      <div class="col-sm-1 col-md-1 col-lg-1 " style="padding-left: 100px;"><a
+          href="https://www.linkedin.com/in/ajay-dalwani-88a46897/" class="fa fa-linkedin "></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
